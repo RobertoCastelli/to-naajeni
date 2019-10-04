@@ -1,8 +1,6 @@
 // INIT
 let score = 0;
 let currentQuestion = 0;
-let timer;
-let count = 30;
 
 // GET VARIABLES FROM HTML
 let btnStart = document.getElementById('btnStart');
