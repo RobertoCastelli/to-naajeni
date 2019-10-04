@@ -1,5 +1,5 @@
 // INIT
-let score = 10;
+let score = 0;
 let currentQuestion = 0;
 let timer;
 let count = 30;
