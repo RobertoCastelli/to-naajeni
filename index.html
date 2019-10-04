@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- FONTAWSOME -->
+    <script src="https://kit.fontawesome.com/dcf7aaaa52.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quizzitch</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>QUIZZITCH</h1>
+            <h6>a straordinary game about life and death</h6>
+            <button id="btnStart" class="btn btn-lg btn-secondary"><i class="fas fa-door-open"></i></button>
+        </div>
+
+        <div class="main">
+            <h3 id="quizTitle"><span id="counter"></span> question...</h3>
+            <h6 id="quiz">PROVA 1</h6>
+            <input id="inputResponse" type="text" placeholder="try to score" class="form-control">
+            <button id="btnQuaffle" class="btn btn-lg btn-secondary">Hit the Quaffle</button>
+            <p id="time"></p>    
+            <img id="gif" src="img/robbi.png" alt="image">
+        </div>  
+    </div>
+
+
+    <footer class="m-3">copyright &copy; 2019 justRo</footer>
+    
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
