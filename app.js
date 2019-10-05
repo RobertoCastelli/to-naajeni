@@ -78,7 +78,7 @@ function endGame() {
         quiz.innerText = `Il tuo Q.I. è pari a ${score}. Riprova!`
         setTimeout(() => {
             location.reload();
-        }, 3000);
+        }, 5000);
     }
 }
 
